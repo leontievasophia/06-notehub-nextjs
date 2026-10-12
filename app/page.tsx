@@ -2,7 +2,7 @@ import css from "./Home.module.css";
 
 export default function Home() {
   return (
-    <div className={css.main}>
+    <section className={css.main}>
       <div className={css.container}>
         <h1 className={css.title}>Welcome to NoteHub</h1>
 
@@ -19,6 +19,6 @@ export default function Home() {
           and productivity.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
